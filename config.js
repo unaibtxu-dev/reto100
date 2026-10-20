@@ -1,5 +1,4 @@
-// Solo configuracion PUBLICA. Nunca pegues contrasenas ni sb_secret/service_role.
 window.RETO100_CLOUD_CONFIG = Object.freeze({
-  supabaseUrl: 'PEGA_AQUI_LA_PROJECT_URL',
-  publishableKey: 'PEGA_AQUI_LA_PUBLISHABLE_KEY'
+  supabaseUrl: 'https://srrnojkvjjicgynweccr.supabase.co/rest/v1/',
+  publishableKey: 'sb_publishable_MeezY9BSC5Op1cUb-gtBug_00Rh3V10'
 });
