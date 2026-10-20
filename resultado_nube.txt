@@ -1,0 +1,19 @@
+PASS Signed-out interface hides app and previous data
+PASS Authenticated authorized user, neutral initial profile
+PASS First private save with revision acknowledgment
+PASS UI navigation preferences excluded from cloud data
+PASS Navigation does not create needless cloud writes
+PASS Second independent device loads existing cloud snapshot
+PASS Two-way synchronized update
+PASS Offline edits remain local and pending
+PASS Offline pending changes upload on reconnection
+PASS Divergent devices stop instead of silently overwriting
+PASS Explicit conflict resolution using cloud copy
+PASS Compatible JSON import propagates after confirmation
+PASS Mobile layout, steps and sync control fit viewport
+PASS JSON backup contains plan data, not authentication tokens
+PASS Logout hides and removes local account snapshot
+PASS Unauthorized account denied by allowlist
+PASS Pending draft survives reload without overwriting by server snapshot
+PASS Imported note is escaped in rendered history
+PASS No uncaught JavaScript errors in tested flows

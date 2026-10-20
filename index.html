@@ -11,6 +11,7 @@
  <link rel="stylesheet" href="styles.css">
  <link rel="stylesheet" href="v2.css">
  <link rel="stylesheet" href="cloud.css">
+ <link rel="stylesheet" href="v3.css">
  <meta name="robots" content="noindex,nofollow,noarchive">
 </head>
 <body class="cloud-locked">
@@ -21,7 +22,7 @@
   <div class="mobile-brand"><div class="flex gap8"><span class="brand-mark"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5v14M3 8v8m18-8v8M17 5v14M7 12h10"/></svg></span><span class="brand-title">reto<span>100</span></span></div><span class="badge badge-muted">Tu plan personal</span></div>
   <div class="nav-section">MI PLAN</div>
   <nav class="nav-list" id="nav"></nav>
-  <div class="sidebar-bottom"><div class="side-goal"><div class="eyebrow muted">LA META</div><div class="mt8"><strong><span id="side-bench">80</span> <span style="color:#a9b39d;font-weight:400">&rarr;</span> 100 <small>kg</small></strong></div><small>Press banca &middot; barra libre<br>Antes del 19 oct. 2027</small></div><div class="side-footer"><span class="status-dot"></span>Nube personal 1.0</div></div>
+  <div class="sidebar-bottom"><div class="side-goal"><div class="eyebrow muted">LA META</div><div class="mt8"><strong><span id="side-bench">80</span> <span style="color:#a9b39d;font-weight:400">&rarr;</span> 100 <small>kg</small></strong></div><small>Press banca &middot; barra libre<br>Antes del 19 oct. 2027</small></div><div class="side-footer"><span class="status-dot"></span>Nube personal 1.1</div></div>
  </aside>
  <div class="shell"><header class="topbar"><div class="breadcrumb"><span>Mi espacio</span><span>/</span><strong id="breadcrumb-current">Inicio</strong></div><div class="topbar-right"><button type="button" id="cloud-account" class="btn" aria-haspopup="dialog">Nube</button><span id="top-date" class="tiny muted"></span><span class="avatar" aria-hidden="true">100</span></div></header>
  <div id="storage-warning" class="storage-warning hidden" role="alert"></div>
@@ -30,6 +31,7 @@
  </div>
  <dialog id="recipe-modal" class="modal" aria-labelledby="modal-title"><div class="modal-head"><h2 id="modal-title">Receta</h2><button class="icon-btn" data-action="close-modal" aria-label="Cerrar receta"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div><div class="modal-body" id="modal-content"></div></dialog>
  <dialog id="exercise-modal" class="modal" aria-labelledby="ex-modal-title"><div class="modal-head"><h2 id="ex-modal-title">Ejercicio</h2><button class="icon-btn" data-v2="close-exercise" aria-label="Cerrar ejercicio">&times;</button></div><div class="modal-body" id="ex-modal-body"></div></dialog>
+ <dialog id="v3-modal" class="modal" aria-labelledby="v3-modal-title"><div class="modal-head"><h2 id="v3-modal-title">Propuesta</h2><button class="icon-btn" data-v3="close-modal" aria-label="Cerrar">&times;</button></div><div class="modal-body" id="v3-modal-body"></div></dialog>
  <input type="file" id="import-file" accept="application/json,.json" class="hidden" aria-label="Importar copia de seguridad">
  <div id="cloud-banner" class="cloud-banner" hidden role="status"></div>
  <dialog id="cloud-modal" class="modal" aria-labelledby="cloud-title"><div class="modal-head"><h2 id="cloud-title">Cuenta y sincronización</h2><button type="button" class="icon-btn" id="cloud-close" aria-label="Cerrar">&times;</button></div><div class="modal-body" id="cloud-content"></div></dialog>
@@ -37,6 +39,8 @@
  <script src="config.js"></script>
  <script src="data.js"></script>
  <script src="v2-data.js"></script>
+ <script src="v3-data.js"></script>
+ <script src="v3-calc.js"></script>
  <script src="app.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.111.0/dist/umd/supabase.js" crossorigin="anonymous" defer></script>
  <script src="cloud.js" defer></script>

@@ -1,0 +1,14 @@
+PASS Managed browser set_content; mocked storage/auth/data, real app HTML/JS and embedded test assets
+PASS Calculator shows estimate without silently modifying targets
+PASS Inputs persist independently of targets
+PASS Explicit target application and nutrition payload synchronized
+PASS Reassessment cooldown and insufficient-data protections
+PASS Portion preview, explicit acceptance and shopping recalculation
+PASS Generated assets, 17 recipe cards and recipe modals load
+PASS 40 guide skeletons finite and in canvas, 9 back variants and working modals
+PASS Split plan, arm session, reorder and swap without reusing wrong load
+PASS Second independent device loads calculator and expanded exercise sessions
+PASS All 10 mobile pages fit 390 px viewport
+PASS Reload preserves calculator inputs and custom training data
+PASS Old cloud snapshot migration keeps profile and creates optional nutrition defaults
+PASS No uncaught JavaScript errors

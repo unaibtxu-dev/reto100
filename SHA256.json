@@ -1,0 +1,19 @@
+{
+  "web/v3.css": "2f23f4a0d3db940981441e1961be1c087a157f942dd3490aafa94cd68ae41aff",
+  "web/app.js": "73593778a97d42de2776ff5e67b262aece770f04c8bf3416c6b5c588b5dfaf2a",
+  "web/v3-calc.js": "b29a09ea9076cdd1e53a3311f1858df3af99989c8b74ae0b816dde57d2393990",
+  "web/index.html": "d662097480c7b92b13860bdc5bfa2633c23123acfcfc6893b2f6b8ef97848656",
+  "web/v3-data.js": "94d3a43d053e7d675bbb4441b80e042e45ab50b9a2267b698ef8c3eee8403e16",
+  "web/assets/meals/rice.webp": "87cffe098b7b734721584d5d2327b528f92e6ec160b719cd2df533efabb117c6",
+  "web/assets/meals/pasta.webp": "10092aa8d5a8b247195acfb1ac6998def1e11ef84108073c43955a936d4e5bcf",
+  "web/assets/meals/lentils.webp": "14283f9cd29e746f76a60160414b88b2159791a7c203d8215b60d29afb679a51",
+  "web/assets/meals/hake.webp": "7ce712c3eed591b2bade1ede3e92199762b178f41c4a9b7ad65d72e27836b876",
+  "web/assets/meals/gnocchi.webp": "3c1f6bd48b799cc4079725020ff75d699a5a9204a1747a4a707f36db9ec1332f",
+  "web/assets/meals/omelette.webp": "25c38cd34a1a7148ff2baacf7370c901535f3f653b0e8a83cc170b7358321a50",
+  "web/assets/meals/burger.webp": "f61b3cca1ded0732834ed408c2e06aac13e29fff5ddd185442150a545230e422",
+  "web/assets/meals/salmon.webp": "4fc17ef14b1d425ae7b62769ee17cfd7c8be0e8541dc9eebe21355af82410fcf",
+  "web/assets/meals/bowl.webp": "3c68073128430de38f97dff9481fb20a5a35f02f29de21edda94b2f2245806d8",
+  "web/assets/meals/chickpeas.webp": "3287f64b432d8be0eecc74711a1b4bd38e1c229c8ba604aabb1259d0adc44798",
+  "web/assets/meals/couscous.webp": "6f3e13648514de8944a14192e33c326679f6041daff5ff5f3e501e0cd188de82",
+  "web/assets/meals/tofu.webp": "529b99245f956149f5ff1064d045cfddd581b17eb09b77b88484655250e21683"
+}
