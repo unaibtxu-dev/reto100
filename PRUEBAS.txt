@@ -1,0 +1,22 @@
+Pruebas de interfaz y sincronizacion con SDK, almacenamiento y backend simulados.
+No se ha probado un proyecto Supabase real, RLS real, CDN ni HTTPS.
+
+OK - Signed-out interface hides app and previous data
+OK - Authenticated authorized user, neutral initial profile
+OK - First private save with revision acknowledgment
+OK - UI navigation preferences excluded from cloud data
+OK - Navigation does not create needless cloud writes
+OK - Second independent device loads existing cloud snapshot
+OK - Two-way synchronized update
+OK - Offline edits remain local and pending
+OK - Offline pending changes upload on reconnection
+OK - Divergent devices stop instead of silently overwriting
+OK - Explicit conflict resolution using cloud copy
+OK - Compatible JSON import propagates after confirmation
+OK - Mobile layout, steps and sync control fit viewport
+OK - JSON backup contains plan data, not authentication tokens
+OK - Logout hides and removes local account snapshot
+OK - Unauthorized account denied by allowlist
+OK - Pending draft survives reload without overwriting by server snapshot
+OK - Imported note is escaped in rendered history
+OK - No uncaught JavaScript errors in tested flows

@@ -1,0 +1,16 @@
+# Public config.js is intentional; never upload private JSON backups or keys.
+.env
+.env.*
+*.pem
+*.key
+*backup*.json
+*copia*.json
+*conflicto*.json
+node_modules/
+.DS_Store
+
+test-results.json
+login-desktop.png
+sync-mobile.png
+sync-desktop.png
+__pycache__/
