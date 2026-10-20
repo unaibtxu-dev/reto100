@@ -1,0 +1,20 @@
+{
+  "tests": [
+    "Managed browser set_content; mocked storage/auth/data, real app HTML/JS and embedded test assets",
+    "Calculator shows estimate without silently modifying targets",
+    "Inputs persist independently of targets",
+    "Explicit target application and nutrition payload synchronized",
+    "Reassessment cooldown and insufficient-data protections",
+    "Portion preview, explicit acceptance and shopping recalculation",
+    "Generated assets, 17 recipe cards and recipe modals load",
+    "40 guide skeletons finite and in canvas, 9 back variants and working modals",
+    "Split plan, arm session, reorder and swap without reusing wrong load",
+    "Second independent device loads calculator and expanded exercise sessions",
+    "All 10 mobile pages fit 390 px viewport",
+    "Reload preserves calculator inputs and custom training data",
+    "Old cloud snapshot migration keeps profile and creates optional nutrition defaults",
+    "No uncaught JavaScript errors"
+  ],
+  "errors": [],
+  "mode": "Managed browser blocks local navigation; set_content with mocked storage, SDK and backend. Test assets embedded. Production untouched."
+}

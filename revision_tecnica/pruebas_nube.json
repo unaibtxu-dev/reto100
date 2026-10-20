@@ -1,0 +1,25 @@
+{
+  "tests": [
+    "Signed-out interface hides app and previous data",
+    "Authenticated authorized user, neutral initial profile",
+    "First private save with revision acknowledgment",
+    "UI navigation preferences excluded from cloud data",
+    "Navigation does not create needless cloud writes",
+    "Second independent device loads existing cloud snapshot",
+    "Two-way synchronized update",
+    "Offline edits remain local and pending",
+    "Offline pending changes upload on reconnection",
+    "Divergent devices stop instead of silently overwriting",
+    "Explicit conflict resolution using cloud copy",
+    "Compatible JSON import propagates after confirmation",
+    "Mobile layout, steps and sync control fit viewport",
+    "JSON backup contains plan data, not authentication tokens",
+    "Logout hides and removes local account snapshot",
+    "Unauthorized account denied by allowlist",
+    "Pending draft survives reload without overwriting by server snapshot",
+    "Imported note is escaped in rendered history",
+    "No uncaught JavaScript errors in tested flows"
+  ],
+  "js_errors": [],
+  "backend": "Managed browser disallows navigation. set_content rendering; mock storage, Supabase SDK and backend. Not a live Supabase or real-origin localStorage test."
+}
